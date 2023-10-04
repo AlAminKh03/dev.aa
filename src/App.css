@@ -5,7 +5,8 @@ a.active {
   position: relative;
 }
 
-a.active::after {
+a.active::after,
+.techHead1::after {
   content: "";
   position: absolute;
   bottom: -1px;
@@ -33,7 +34,7 @@ article,
 img {
   animation: fade 2s linear both;
   animation-timeline: view();
-  animation-range: entry 30% cover 40%;
+  animation-range: entry 20% cover 35%;
   transition-duration: 100ms;
   transform: translateX(1);
 }
@@ -44,4 +45,16 @@ img {
   to {
     opacity: 1;
   }
+}
+
+.techHead1 {
+  text-shadow: 0 0 0 rgb(255, 0, 0), 0 0 0 rgb(0, 255, 0), 0 0 0 rgb(0, 0, 255);
+  border-bottom: 1px solid #272727;
+  transition: border 1s ease-in-out;
+  position: relative;
+}
+.techHead1:hover {
+  text-shadow: 0.3px -0.1px 0.1px rgb(255, 0, 0), 0.2px 0.1px 0 rgb(0, 255, 0),
+    -0.1px 0.2px 0 rgb(0, 0, 255);
+  transition: 0.2s cubic-bezier(0.5, 200, 0.5, -200);
 }

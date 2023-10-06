@@ -1,0 +1,99 @@
+{
+  "projects": [
+    {
+      "id": 2,
+      "name": "Motor Merhcants",
+      "imgUrl": "https://i.ibb.co/W3MCY80/Screenshot-51.png",
+      "link": "https://meiwen-see.vercel.app/",
+      "github": "",
+      "techs": [
+        "Next.js",
+        "tailwind CSS",
+        "Firebase Auth",
+        "Node.js",
+        "Express.js",
+        "Mongodb"
+      ],
+      "type": "next",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "name": "Therapuetic touchpoint",
+      "imgUrl": "https://i.ibb.co/2sjHVmY/Screenshot-53.png",
+      "link": "https://meiwen-see.vercel.app/",
+      "github": "",
+      "techs": [
+        "Next.js",
+        "tailwind CSS",
+        "Firebase Auth",
+        "Node.js",
+        "Express.js",
+        "Mongodb"
+      ],
+      "type": "next",
+      "status": "active"
+    },
+
+    {
+      "id": 5,
+      "name": "Chiper school",
+      "imgUrl": "https://i.ibb.co/30BZNsP/Screenshot-52.png",
+      "link": "https://meiwen-see.vercel.app/",
+      "github": "react",
+      "techs": [
+        "React.Js",
+        "tailwind CSS",
+        "Firebase Auth",
+        "Node.js",
+        "Express.js",
+        "Mongodb"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 6,
+      "name": "Chiper school",
+      "imgUrl": "https://i.ibb.co/zswJNSd/Screenshot-56.png",
+      "link": "https://meiwen-see.vercel.app/",
+      "github": "react",
+      "techs": [
+        "React.Js",
+        "tailwind CSS",
+        "Firebase Auth",
+        "Node.js",
+        "Express.js",
+        "Mongodb"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 1,
+      "name": "Meiwen see",
+      "imgUrl": "https://i.ibb.co/4d82qdD/Screenshot-58.png",
+      "link": "https://meiwen-see.vercel.app/",
+      "github": "",
+      "techs": ["react", "tailwind CSS"],
+      "type": "react",
+      "status": "active"
+    },
+    {
+      "id": 7,
+      "name": "Chiper school",
+      "imgUrl": "https://i.ibb.co/tzGyy9L/Screenshot-60.png",
+      "link": "https://meiwen-see.vercel.app/",
+      "github": "react",
+      "techs": ["React.Js", "tailwind CSS", "redux", "rtk toolkit"],
+      "status": "inActive"
+    },
+    {
+      "id": 8,
+      "name": "Web-3 ecom (only user interface)",
+      "imgUrl": "https://i.ibb.co/R4njyVd/Web-capture-6-10-2023-17473-task-one-jade-vercel-app.jpg",
+      "link": "https://meiwen-see.vercel.app/",
+      "github": "react",
+      "techs": ["React.Js", "tailwind CSS"],
+      "status": "inActive"
+    }
+  ]
+}

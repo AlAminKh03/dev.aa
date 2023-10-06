@@ -31,7 +31,7 @@ const ProjectCatalog = () => {
         <img
           src={myself}
           alt="preview 1"
-          className=" rounded-full w-36 h-36 mx-auto mb-8 object-cover"
+          className=" rounded-md  h-[175px] mx-auto mb-5 object-cover"
         />
         <img
           src={preview2}

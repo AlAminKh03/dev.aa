@@ -2,9 +2,7 @@ import { NavLink } from "react-router-dom";
 import { BsFacebook, BsLinkedin, BsGithub } from "react-icons/bs";
 import { FaXTwitter } from "react-icons/fa6";
 
-type Props = {};
-
-const Navbar = (props: Props) => {
+const Navbar = () => {
   return (
     <nav className="flex items-center justify-between">
       <div className="mt-20 flex items-start gap-5 text-gray-400 ">

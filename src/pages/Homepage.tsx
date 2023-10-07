@@ -1,9 +1,6 @@
-import React from "react";
 import Home from "../Components/Home";
 
-type Props = {};
-
-const Homepage = (props: Props) => {
+const Homepage = () => {
   return <Home />;
 };
 

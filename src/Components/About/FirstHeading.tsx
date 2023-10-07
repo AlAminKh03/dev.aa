@@ -1,6 +1,4 @@
-type Props = {};
-
-const FirstHeading = (props: Props) => {
+const FirstHeading = () => {
   return (
     <article>
       <h2 className="text-7xl font-semibold text-gray-50 ">

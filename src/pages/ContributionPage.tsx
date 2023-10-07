@@ -1,9 +1,6 @@
-import React from "react";
 import Contribution from "../Components/Contributions/Contribution";
 
-type Props = {};
-
-const ContributionPage = (props: Props) => {
+const ContributionPage = () => {
   return (
     <div>
       <Contribution />

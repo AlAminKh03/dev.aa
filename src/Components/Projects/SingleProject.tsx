@@ -21,7 +21,7 @@ const SingleProject = ({ project }: ProjectProps) => {
   return (
     <div className="border-2 border-gray-400 bg-black ">
       {/* img area  */}
-      <a href="" target="_blank" className="relative">
+      <a href={project.link} target="_blank" className="relative">
         <img
           src={project.imgUrl}
           alt=""
@@ -55,7 +55,8 @@ const SingleProject = ({ project }: ProjectProps) => {
       </div>
       <div className="grid grid-cols-2 ">
         <a
-          href={project.link}
+          href={project.github}
+          target="_blank"
           className="  border-2 border-gray-400 border-l-0 border-b-0 p-2  text-gray-100 group     transform transition-all duration-50 ease-linear "
         >
           <p className="  transform transition-all duration-150 ease-linear flex items-center justify-center group-hover:scale-125">
@@ -64,7 +65,11 @@ const SingleProject = ({ project }: ProjectProps) => {
           </p>
         </a>
         {project.status === "active" ? (
-          <a className="  border-2 border-gray-400 border-b-0  border-x-0 p-2 text-gray-100 group    transform transition-all duration-50 ease-linear cursor-pointer ">
+          <a
+            href={project.link}
+            target="_blank"
+            className="  border-2 border-gray-400 border-b-0  border-x-0 p-2 text-gray-100 group    transform transition-all duration-50 ease-linear cursor-pointer "
+          >
             <p className="group-hover:scale-125  transform transition-all duration-300 ease-linear flex items-center justify-center ">
               {" "}
               <FcGlobe className="w-8 h-8 animate-spin-slow " />
@@ -83,7 +88,7 @@ const SingleProject = ({ project }: ProjectProps) => {
             <p className=" flex items-center justify-center ">
               {" "}
               <BiLoader className="w-8 h-8 " />
-              <span>Not hosted</span>
+              <span className="text-sm pl-1">Coming soon .... </span>
             </p>
           </button>
         )}

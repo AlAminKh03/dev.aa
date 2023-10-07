@@ -4,7 +4,7 @@ import SingleProject from "./SingleProject";
 const Projects = () => {
   const { projects } = data;
   return (
-    <div className="mt-20">
+    <div className="my-20">
       <div className="grid gri-cols-2">
         <div></div>
         <div></div>

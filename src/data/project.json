@@ -1,62 +1,69 @@
 {
   "projects": [
     {
-      "id": 2,
+      "id": 1,
       "name": "Motor Merhcants",
       "imgUrl": "https://i.ibb.co/W3MCY80/Screenshot-51.png",
-      "link": "https://meiwen-see.vercel.app/",
-      "github": "",
+      "link": "https://motor-merchants.vercel.app/",
+      "github": "https://github.com/AlAminKh03/motor-merchants",
       "techs": [
         "Next.js",
         "tailwind CSS",
         "Firebase Auth",
         "Node.js",
         "Express.js",
-        "Mongodb"
+        "Mongodb",
+        "Typescript"
       ],
       "type": "next",
       "status": "active"
     },
     {
-      "id": 3,
+      "id": 2,
       "name": "Therapuetic touchpoint",
       "imgUrl": "https://i.ibb.co/2sjHVmY/Screenshot-53.png",
-      "link": "https://meiwen-see.vercel.app/",
-      "github": "",
+      "link": "https://therapuetic-touchpoint-ebfj.vercel.app/",
+      "github": "https://github.com/AlAminKh03/Therapuetic-Touchpoint",
       "techs": [
         "Next.js",
         "tailwind CSS",
         "Firebase Auth",
         "Node.js",
         "Express.js",
-        "Mongodb"
+        "Mongodb",
+        "Typescript"
       ],
       "type": "next",
+      "status": "active"
+    },
+    {
+      "id": 5,
+      "name": "Meiwen see",
+      "imgUrl": "https://i.ibb.co/4d82qdD/Screenshot-58.png",
+      "link": "https://meiwen-see.vercel.app/",
+      "github": "https://github.com/AlAminKh03/meiwenSee",
+      "techs": ["react", "tailwind CSS", "TS"],
+      "type": "react",
       "status": "active"
     },
 
     {
-      "id": 5,
-      "name": "Chiper school",
-      "imgUrl": "https://i.ibb.co/30BZNsP/Screenshot-52.png",
-      "link": "https://meiwen-see.vercel.app/",
-      "github": "react",
-      "techs": [
-        "React.Js",
-        "tailwind CSS",
-        "Firebase Auth",
-        "Node.js",
-        "Express.js",
-        "Mongodb"
-      ],
-      "status": "active"
-    },
-    {
       "id": 6,
-      "name": "Chiper school",
-      "imgUrl": "https://i.ibb.co/zswJNSd/Screenshot-56.png",
-      "link": "https://meiwen-see.vercel.app/",
-      "github": "react",
+      "name": "Fisher Ecom",
+      "imgUrl": "https://i.ibb.co/tzGyy9L/Screenshot-60.png",
+      "link": "",
+      "github": "https://github.com/AlAminKh03/addToCart",
+      "techs": ["React.Js", "tailwind CSS", "redux", "rtk toolkit", "TS"],
+      "status": "inActive",
+      "type": "react"
+    },
+
+    {
+      "id": 3,
+      "name": "Chiper School",
+      "imgUrl": "https://i.ibb.co/30BZNsP/Screenshot-52.png",
+      "link": "https://cipher-school.vercel.app/login",
+      "github": "https://github.com/AlAminKh03/cipher-school",
       "techs": [
         "React.Js",
         "tailwind CSS",
@@ -65,35 +72,37 @@
         "Express.js",
         "Mongodb"
       ],
-      "status": "active"
+      "status": "active",
+      "type": "react"
     },
+
     {
-      "id": 1,
-      "name": "Meiwen see",
-      "imgUrl": "https://i.ibb.co/4d82qdD/Screenshot-58.png",
-      "link": "https://meiwen-see.vercel.app/",
-      "github": "",
-      "techs": ["react", "tailwind CSS"],
-      "type": "react",
-      "status": "active"
+      "id": 4,
+      "name": "Airbnb Clone (only user interface)",
+      "imgUrl": "https://i.ibb.co/zswJNSd/Screenshot-56.png",
+      "link": "https://github.com/AlAminKh03/cipher-school",
+      "github": "https://github.com/AlAminKh03/Airbnb",
+      "techs": [
+        "React.Js",
+        "tailwind CSS",
+        "Firebase Auth",
+        "Node.js",
+        "Express.js",
+        "Mongodb"
+      ],
+      "status": "active",
+      "type": "react"
     },
+
     {
       "id": 7,
-      "name": "Chiper school",
-      "imgUrl": "https://i.ibb.co/tzGyy9L/Screenshot-60.png",
-      "link": "https://meiwen-see.vercel.app/",
-      "github": "react",
-      "techs": ["React.Js", "tailwind CSS", "redux", "rtk toolkit"],
-      "status": "inActive"
-    },
-    {
-      "id": 8,
       "name": "Web-3 ecom (only user interface)",
       "imgUrl": "https://i.ibb.co/R4njyVd/Web-capture-6-10-2023-17473-task-one-jade-vercel-app.jpg",
-      "link": "https://meiwen-see.vercel.app/",
-      "github": "react",
-      "techs": ["React.Js", "tailwind CSS"],
-      "status": "inActive"
+      "link": "",
+      "github": "https://github.com/AlAminKh03/task",
+      "techs": ["React.Js", "typescript", "Chakra Ui"],
+      "status": "inActive",
+      "type": "react"
     }
   ]
 }

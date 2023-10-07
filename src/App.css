@@ -20,6 +20,18 @@ h2 {
   background-size: 500% auto;
   animation: textShine 10s ease-in-out infinite alternate;
 }
+.resume {
+  background: linear-gradient(
+    to right,
+    #bf5af2 20%,
+    #007aff 40%,
+    #5e5ce6 60%,
+    #6d20fd 80%
+  );
+
+  background-size: 500% auto;
+  animation: textShine 10s ease-in-out infinite alternate;
+}
 
 @keyframes textShine {
   0% {

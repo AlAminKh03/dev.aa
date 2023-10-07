@@ -23,7 +23,7 @@ const Navbar = (props: Props) => {
             isPending ? "pending" : isActive ? "active" : ""
           }
         >
-          project
+          projects
         </NavLink>
         <NavLink
           to="/contribution"
@@ -53,6 +53,13 @@ const Navbar = (props: Props) => {
 
         <a href="https://github.com/AlAminKh03" target="_blank">
           <BsGithub className="text-white text-xl hover:scale-110 transition-all transform duration-150 ease-linear" />
+        </a>
+        <a
+          href="https://docs.google.com/document/d/1AabYcK1XUnV3xgopThy9LAJqhFJ2BZlPAK5K7K_em50/edit?usp=sharing"
+          target="_blank"
+          className="bg-gradient-to-r from-indigo-500 to-purple-500 p-1 rounded-md resume hover:scale-110 transition-all transform duration-150 ease-linear"
+        >
+          <span className="text-gray-50 text-sm font-semibold ">Resume</span>
         </a>
       </div>
     </nav>

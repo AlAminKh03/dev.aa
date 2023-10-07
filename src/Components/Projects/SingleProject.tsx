@@ -1,6 +1,6 @@
 import next from "../../assets/logo/next.png";
 import react from "../../assets/logo/react.png";
-import { BsGithub, BsGlobeAmericas } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
 import { FcGlobe } from "react-icons/fc";
 import { BiLoader } from "react-icons/bi";
 
@@ -46,8 +46,11 @@ const SingleProject = ({ project }: ProjectProps) => {
           {project.name}
         </p>
         <ul className="flex items-center gap-1 flex-wrap p-2">
-          {project.techs.map((tech, index) => (
-            <li className="bg-[#2c2c2c] text-sm p-1 text-gray-100 rounded-md">
+          {project.techs.map((tech) => (
+            <li
+              key={tech}
+              className="bg-[#2c2c2c] text-sm p-1 text-gray-100 rounded-md"
+            >
               {tech}
             </li>
           ))}

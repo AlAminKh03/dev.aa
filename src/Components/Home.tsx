@@ -6,7 +6,7 @@ import SkillShowcase from "./About/SkillShowcase";
 
 const Home = () => {
   return (
-    <main className="mt-20 mb-40">
+    <main className=" mt-20 mb-40 ">
       <FirstHeading />
       <ProjectCatalog />
       <MiddleDescription />
